@@ -23,6 +23,8 @@ class TestRoman extends FunSuite with BeforeAndAfter{
 	  assert(RomanNumeral.toRoman(1960)=="MCMLX")
 	  assert(RomanNumeral.toRoman(1968)=="MCMLXVIII")
 	  assert(RomanNumeral.toRoman(1970)=="MCMLXX")
+	  assert(RomanNumeral.toRoman(1980)=="MCMLXXX")
+	  assert(RomanNumeral.toRoman(1990)=="MCMXC")
   	  assert(RomanNumeral.toRoman(2016)=="MMXVI")
       }
       
